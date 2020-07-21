@@ -1,9 +1,3 @@
-class Dog
-  
-  def name= ()
-
-
-
 class Dog 
   
   def name= (dog_name)
@@ -13,9 +7,18 @@ class Dog
   def name
     @this_dogs_name
   end
+  
+  def speak= (dog_speak)
+    @this_dog_speaks = dog_speak
+  end
+  
+  def speak
+    @this_dog_speaks
+  end
 end
 
-lassie = Dog.new
-lassie.name = "Lassie"
+fido = Dog.new
+fido.name = "Lassie"
  
-lassie.name
+fido.name
+fido.bark
