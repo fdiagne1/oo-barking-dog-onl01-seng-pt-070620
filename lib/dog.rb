@@ -14,6 +14,7 @@ class Dog
   
   def bark
     @this_dog_speaks
+    puts "woof!"
   end
 end
 
