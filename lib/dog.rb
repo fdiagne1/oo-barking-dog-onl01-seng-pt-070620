@@ -8,11 +8,11 @@ class Dog
     @this_dogs_name
   end
   
-  def speak= (dog_speak)
+  def bark= (dog_speak)
     @this_dog_speaks = dog_speak
   end
   
-  def speak
+  def bark
     @this_dog_speaks
   end
 end
